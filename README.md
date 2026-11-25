@@ -1,44 +1,44 @@
-# Semeter projet, SUBJECT -> WTECH25
-# 💎  NYX - Laravel Jewelry Store
+# NYX - Laravel Jewelry Store
 
-This is a student project built using Laravel, focused on creating an e-commerce website for jewelry. The goal was to learn Laravel fundamentals including routing, Blade templating, authentication, and basic e-shop functionality like product browsing, user profiles, and a shopping cart.
-
-## 🔗 GitHub Repository
-**Repository:** [WTECH_2025 GitHub](https://github.com/Daweed12/WTECH_2025)  
+**Course:** WTECH25 (Semester Project)  
+**Repository:** [WTECH_2025](https://github.com/Daweed12/WTECH_2025)  
 **Submission Date:** 11/05/2025  
 **Final Commit:** `0f28fb84a10dc247ffa493e7cc75eba4b2512e20`
 
-## 👥 Team Members
-- **Daweed12**
-- **xkmetk**
+## Overview
 
-## ✨ Features
-- User registration and login
-- View all products
-- View single product details
-- Add items to cart
-- View and manage shopping cart
-- Edit user account details
-- Basic admin structure (prepared in views)
+A student e-commerce web application for jewelry built with the Laravel framework. The project focuses on core Laravel concepts—routing, Blade templating, user authentication, and essential e-shop workflows.
 
-## 🗂️ View Structure (Blade Templates)
-- Organized under folders like `home/`, `cart/`, `profile/`, `vendor/`
-- Main Blade files include:
-  - `index.blade.php`
-  - `all_products.blade.php`
-  - `current_product.blade.php`
-  - `cart.blade.php`
-  - `account_details.blade.php`
-  - `login_register_user.blade.php`
+## Team Members
 
-## 🔍 Full-Text Search
-The project includes a basic **full-text search** bar to search across product titles and descriptions.
+* Daweed12
+* xkmetk
 
-## 🖼️ Visuals & Inspiration
-This project is strictly for educational purposes. Image resources and design inspiration were taken from:
-- https://eu.cernucci.com
-- https://www.gorjana.com
-- https://www.unsplash.com (only royalty-free images)
+## Features
 
-## ✅ Review System
-A simple internal reviewer/checking system was implemented for collaborative development and code review.
+* **Authentication:** User registration, login, and account details management.
+* **Product Catalog:** Browse all products, view individual product details, and filter using full-text search across titles and descriptions.
+* **Shopping Cart:** Add items, view cart contents, and manage quantities.
+* **Administration:** Basic admin view structure prepared for management features.
+* **Internal Review System:** Simple collaborative checking mechanism used during development.
+
+## View Structure
+
+Blade templates are organized into modular subdirectories (`home/`, `cart/`, `profile/`, `vendor/`):
+
+| Template | Purpose |
+| :--- | :--- |
+| `index.blade.php` | Landing page |
+| `all_products.blade.php` | Full product catalog |
+| `current_product.blade.php` | Single product detail view |
+| `cart.blade.php` | Shopping cart overview |
+| `account_details.blade.php` | User profile settings |
+| `login_register_user.blade.php` | Authentication views |
+
+## Visuals and Attribution
+
+This project is created strictly for educational purposes. Visual assets and design inspiration were sourced from:
+
+* [Cernucci](https://eu.cernucci.com)
+* [Gorjana](https://www.gorjana.com)
+* [Unsplash](https://www.unsplash.com) (royalty-free photography)
